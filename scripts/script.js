@@ -24,5 +24,11 @@ window.onload=()=>{
             checkWin();//todo
         }
     }
-
+    // switch player turn
+    const switchTurn=()=>{
+        if(turn=='red')
+        turn='yellow';
+        else
+        turn='red';
+    }
 }
