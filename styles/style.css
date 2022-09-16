@@ -37,6 +37,7 @@ header{
 .grid > div{
     width:100%;
     height: 100%;
+    cursor: pointer;
 }
 .red{
     background: url('../content/red.png');
