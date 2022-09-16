@@ -1,3 +1,4 @@
 window.onload=()=>{
-    console.log('hola');
+    // declarables
+    const grid=[,,,,,,,,];
 }
