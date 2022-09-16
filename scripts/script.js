@@ -2,6 +2,8 @@ window.onload=()=>{
     // declarables
     // html elements
     const grid= document.querySelector('.grid');
+    const scoreRed=document.getElementById('scoreR');
+    const scoreYellow=document.getElementById('scoreY');
     // js vars
     const gridArr=['a','b','c','d','e','f','g','h','i'];
     const score={
@@ -94,6 +96,7 @@ window.onload=()=>{
             }
             score[turn]++;
         }
+        
     }
     fillGrid();
 }
