@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 img{
-    width:50%;
+    width:100%;
+    height:100%;
 }
 /* header */
 header{
@@ -20,4 +21,16 @@ header{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    width:80vmin;
+    height:80vmin;
+    margin: auto;
+    margin-top: 5%;
+    background: url('../content/board.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
