@@ -34,3 +34,19 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.grid > div{
+    width:100%;
+    height: 100%;
+}
+.red{
+    background: url('../content/red.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yellow{
+    background: url('../content/yellow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
