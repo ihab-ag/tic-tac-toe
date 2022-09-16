@@ -16,11 +16,13 @@ window.onload=()=>{
     }
     // select action
     const select= (id)=>{
-        const el = document.getElementById(id);
-        el.classList= turn;
-        arr[id]=turn;
-        switchTurn();//todo
-        checkWin();//todo
-
+        while(!gridArr[id]){
+            const el = document.getElementById(id);
+            el.classList= turn;
+            arr[id]=turn;
+            switchTurn();//todo
+            checkWin();//todo
+        }
     }
+
 }
