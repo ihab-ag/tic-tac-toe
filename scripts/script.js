@@ -5,7 +5,7 @@ window.onload=()=>{
     const scoreRed=document.getElementById('scoreR');
     const scoreYellow=document.getElementById('scoreY');
     // js vars
-    const gridArr=['a','b','c','d','e','f','g','h','i'];
+    let gridArr=['a','b','c','d','e','f','g','h','i'];
     const score={
         'red':0,
         'yellow':0
@@ -96,7 +96,17 @@ window.onload=()=>{
             }
             score[turn]++;
         }
-        
+        return false;
+    }
+    // restart game
+    const restart=()=>{
+        for(const el in gridArr){
+            gridArr[el]=el;
+        }
+        grid.innerHTML="";
+        fillGrid();
+        scoreRed.innerText=score['red'];
+        scoreYellow.innerText=score['yellow'];
     }
     fillGrid();
 }
