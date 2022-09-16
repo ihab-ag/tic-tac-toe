@@ -43,10 +43,17 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeIn 1s;
 }
 .yellow{
     background: url('../content/yellow.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeIn 1s;
 }
+/* animation */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
